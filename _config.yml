@@ -1,0 +1,21 @@
+# Site settings
+title: Reader. Writer. Coder.
+header-img: img/home-bg.png
+email: tmerrigan22@gmail.com
+copyright_name: twmerrigan
+description: > # this means to ignore newlines until "baseurl:"
+  A journey to develop coding skills with Learn.co
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: twmerrigan
+github_username:  twmerrigan
+learn_profile: twmerrigan
+email_username: tmerrigan22@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
